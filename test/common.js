@@ -43,4 +43,5 @@ global.behaveLikeAnAdapter = require("./behave_like_an_adapter");
 var sinonChai = require("sinon-chai");
 chai.use(sinonChai);
 
-global.ascoltatori = require("../");
+global.adapters = require("../");
+global.ascoltatori = require("ascoltatori");
