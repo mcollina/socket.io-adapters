@@ -1,6 +1,7 @@
 global.sinon = require("sinon");
 global.chai = require("chai");
 global.expect = require("chai").expect;
+global.async = require("async");
 
 global.redisSettings = function() {
   return {

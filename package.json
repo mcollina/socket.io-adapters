@@ -34,7 +34,8 @@
     "hiredis": "~0.1.14",
     "zmq": "~2.2.0",
     "amqp": "~0.1.4",
-    "mqttjs": "git://github.com/mcollina/MQTT.js.git#fix-global-leaks"
+    "mqttjs": "git://github.com/mcollina/MQTT.js.git#fix-global-leaks",
+    "async": "~0.2.4"
   },
   "dependencies": {
     "ascoltatori": "~0.0.1"
