@@ -37,7 +37,7 @@
     "mqttjs": "git://github.com/mcollina/MQTT.js.git#fix-global-leaks"
   },
   "dependencies": {
-    "ascoltatori": "~0.0.1",
+    "ascoltatori": "~0.1.5",
     "async": "~0.2.4"
   }
 }

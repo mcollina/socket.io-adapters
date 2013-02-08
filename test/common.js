@@ -39,6 +39,7 @@ global.mqttSettings = function() {
 require("./mqtt_server")(5883);
 
 global.behaveLikeAnAdapter = require("./behave_like_an_adapter");
+global.behaveLikeAMultiProcessAdapter = require("./behave_like_a_multi_process_adapter");
 
 var sinonChai = require("sinon-chai");
 chai.use(sinonChai);
